@@ -277,3 +277,57 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
   </body>
 </html>
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.bannerBgImage{
+    height: 100vh;
+    background: url("/images/laptop banner image.jpg");
+    background-size: cover;
+    position: relative;
+}
+.bannerText{
+    text-align: right;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    color:white;
+}
+.bannerTitle{
+    font-size: 4rem;
+}
+.bannerDesc{
+    font-size:2rem;
+}
+.card{
+    cursor: pointer;
+}
+
+.card:hover{
+    background-color: #d87093;
+    border: 2px solid #9acd32;
+}
+.bIcon{
+   width: 100%;
+   text-align: center;
+   font-size: 40px;
+}
+   .img-fluid:hover{
+    border: 4px solid yellowgreen;
+   }
+
+   .card-img-top{
+    height: 50vh;
+   }
